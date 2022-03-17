@@ -5,3 +5,4 @@ on: pull_request_review
 jobs:
   build:
     runs-on: ubuntu-latest
+    name: labelWhenApproved
